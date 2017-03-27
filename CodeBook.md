@@ -1,14 +1,14 @@
 DESCRIPTION
-  Information about data, variables, files used by Pavlos B in Coursera's Getting and Cleaning Data Course Project 
+ - Information about data, variables, files used by Pavlos B in Coursera's Getting and Cleaning Data Course Project 
   
 DATA SOURCE PAGE
-  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+ - http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
   
 DATA URL
-  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+ - https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
   
 EXPERIMENTAL/DATASET SUMMARY
-  Experiments were carried out on 30 volunteers within 19-48 years of age. 
+  - Experiments were carried out on 30 volunteers within 19-48 years of age. 
   Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone 
   (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial 
   angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. 
