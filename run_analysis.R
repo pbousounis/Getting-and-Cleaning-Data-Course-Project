@@ -44,4 +44,6 @@ amsMerge <- merge(msMerge, actLabels,
 ##the ave of each var for each activity and each subject.
 tidyData <- aggregate(. ~Subject + Activity, amsMerge, mean)
 tidyData <- tidyData[order(tidyData$Subject, tidyData$Activity),]
+tidyData <- merge(actLabels, tidyData)
+tidyData <- tidyData[do.call(order, tidyData),]
 write.table(tidyData, "tidyData.txt", row.name=FALSE)
