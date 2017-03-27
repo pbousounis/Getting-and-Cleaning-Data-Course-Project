@@ -25,9 +25,9 @@ FILES INCLUDED
 - 'test/X_test.txt': Test set.
 - 'test/y_test.txt': Test labels.
 
-CHANGES MADE
+**CHANGES MADE
 - subject_text and subject_train values appear in the merged data frame in the column "Subject"
 - activity_labels appear in the merged data frame in the column "Activities" (numeric ID) and "Description" (activity description)
 
-OUTPUT
+**OUTPUT
 - The output of run_analysis.R is tidyData.txt, a text file containing the final labeled and merged data frame, in the folder ./data
